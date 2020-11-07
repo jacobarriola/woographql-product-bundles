@@ -64,4 +64,4 @@ In this example, the Bundle contains two Bundle Items, `765` and `896`. `765` is
 
 ## Todo
 * return appropriate types instead of JSON for `allowedVariations` and `defaultVariationAttributes`
-* simplify the `addToCartBundle` of merge it with the core `addToCart` mutation
+* simplify the `addToCartBundle` or merge it with the core `addToCart` mutation
