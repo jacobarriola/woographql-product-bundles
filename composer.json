@@ -1,0 +1,14 @@
+{
+	"name": "jacobarriola/woographql-product-bundles",
+	"description": "Add WooCommerce Product Bundles support to the WPGraphQL schema.",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Jacob Arriola"
+		}
+	],
+	"license": "GPL-3.0-or-later",
+	"require": {
+		"php": "^7.4||^8.0"
+	}
+}
