@@ -58,7 +58,7 @@ Example:
 }
 ```
 
-In this example, the Bundle contains to Bundle Items, `765` and `896`. `765` is a variable
+In this example, the Bundle contains two Bundle Items, `765` and `896`. `765` is a variable
  product (designated by the `product_id: 9876`). The `variation_id` and attributes are required
  . On the other hand, `896` is a simple product. It's only passing in the `product_id`.
 
