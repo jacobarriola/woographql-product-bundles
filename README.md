@@ -5,11 +5,11 @@ Add WooCommerce Product Bundle support to your WPGraphQL schema.
 > make extensions easier have not been published as part of a release.
  
 ## Requirements
-* PHP +7.4
+* PHP +7.1
 * WordPress +5.0
-* WPGraphQL +0.13.3
-* WooGraphQL `develop` branch
-* WooCommerce +3.6.0
+* WPGraphQL +1
+* WooGraphQL +0.8.0
+* WooCommerce +4.7.0
 * WooCommerce Product Bundles +0.5.0
 
 ### Documentation
