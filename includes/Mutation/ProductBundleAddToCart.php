@@ -101,7 +101,7 @@ class ProductBundleAddToCart {
 			}
 			
 			if ( is_wp_error( $cart_item_key ) ) {
-				throw new UserError( $cart_item_key->get_error_message );
+				throw new UserError( $cart_item_key->get_error_message() );
 			}
 			
 			// Return payload.
