@@ -64,6 +64,13 @@ add_action( 'graphql_register_types', function () {
 					return ! empty( $add_to_cart_form_location ) ? $add_to_cart_form_location : null;
 				},
 			],
+			'editableInCart' => [
+				'type'        => 'Boolean',
+				'description' => __( 'Whether the bundle is editable in the cart.', 'woographql-product-bundles' ),
+				'resolve' => function ( $source ) {
+					return $source->get_editable_in_cart();
+				},
+			],
 		];
 	}
 	
