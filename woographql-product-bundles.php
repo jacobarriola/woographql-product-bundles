@@ -6,7 +6,7 @@ namespace WPGraphQL\WooCommerce\ProductBundles;
  * Plugin Name:       WooGraphQL Product Bundles
  * Plugin URI:        https://github.com/jacobarriola/woographql-product-bundles
  * Description:       Adds support for WooCommerce Product Bundles to the GraphQL schema.
- * Version:           0.0.3
+ * Version:           0.0.4
  * Author:            Jacob Arriola
  * Author URI:        https://jacobarriola.com
  * License:           GPL-2.0+
