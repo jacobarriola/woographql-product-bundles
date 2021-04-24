@@ -70,7 +70,9 @@ add_action( 'graphql_register_types', function () {
 	/**
 	 * Register the Object Type
 	 */
-	register_graphql_object_type( TYPE_BUNDLE_PRODUCT, [
+	register_graphql_object_type(
+		TYPE_BUNDLE_PRODUCT,
+		[
 			'description' => __( 'A product bundle object', 'woographql-product-bundles' ),
 			'interfaces'  => Product_Types::get_product_interfaces(),
 			'fields'      =>
